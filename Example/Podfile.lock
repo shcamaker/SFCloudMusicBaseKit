@@ -1,28 +1,19 @@
 PODS:
-  - SDWebImage (5.5.2):
-    - SDWebImage/Core (= 5.5.2)
-  - SDWebImage/Core (5.5.2)
-  - SFCloudMusicBaseKit (0.4.0):
-    - SFCloudMusicBaseKit/Extensions (= 0.4.0)
-    - SFCloudMusicBaseKit/Utils (= 0.4.0)
-  - SFCloudMusicBaseKit/Extensions (0.4.0)
-  - SFCloudMusicBaseKit/Utils (0.4.0):
-    - SDWebImage
+  - SFCloudMusicBaseKit (0.6.0):
+    - SFCloudMusicBaseKit/Extensions (= 0.6.0)
+    - SFCloudMusicBaseKit/Utils (= 0.6.0)
+  - SFCloudMusicBaseKit/Extensions (0.6.0)
+  - SFCloudMusicBaseKit/Utils (0.6.0)
 
 DEPENDENCIES:
   - SFCloudMusicBaseKit (from `../`)
-
-SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
-    - SDWebImage
 
 EXTERNAL SOURCES:
   SFCloudMusicBaseKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SDWebImage: 4d5c027c935438f341ed33dbac53ff9f479922ca
-  SFCloudMusicBaseKit: 1961a332dc156b7b87c3bb7e7c935e29d6c1d5bb
+  SFCloudMusicBaseKit: acbbc8806f2997074475a192731bc2afde5ecb2f
 
 PODFILE CHECKSUM: f8630c95ae29f50387cc620bba68616d7375a82c
 

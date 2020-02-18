@@ -1,6 +1,6 @@
 {
   "name": "SFCloudMusicBaseKit",
-  "version": "0.4.0",
+  "version": "0.6.0",
   "summary": "SFCloudMusicBaseKit.",
   "description": "基础组件包含了我们的分类，基础配置，工具.",
   "homepage": "https://github.com/shcamaker/SFCloudMusicBaseKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/shcamaker/SFCloudMusicBaseKit.git",
-    "tag": "0.4.0"
+    "tag": "0.6.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -26,12 +26,7 @@
     },
     {
       "name": "Utils",
-      "source_files": "SFCloudMusicBaseKit/Classes/Utils/**/*",
-      "dependencies": {
-        "SDWebImage": [
-
-        ]
-      }
+      "source_files": "SFCloudMusicBaseKit/Classes/Utils/**/*"
     }
   ]
 }
