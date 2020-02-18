@@ -1,0 +1,16 @@
+PODS:
+  - SFCloudMusicBaseKit (0.1.0)
+
+DEPENDENCIES:
+  - SFCloudMusicBaseKit (from `../`)
+
+EXTERNAL SOURCES:
+  SFCloudMusicBaseKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SFCloudMusicBaseKit: 2fa5f52624e89ccbb4bbf4189d262a94467f617c
+
+PODFILE CHECKSUM: 545789b3b18ea91e79145f41562bd3532e420383
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+framework module Pods_SFCloudMusicBaseKit_Tests {
+  umbrella header "Pods-SFCloudMusicBaseKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
