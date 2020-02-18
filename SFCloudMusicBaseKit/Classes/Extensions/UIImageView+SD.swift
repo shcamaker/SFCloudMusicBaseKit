@@ -11,15 +11,12 @@ import SDWebImage
 
 extension UIImageView {
     func SFSetImage(withPath imagePath: String)  {
-        guard let placeholder = UIImage(systemName: "exclamationmark.triangle.fill") else {
-            return
-        }
-        SFSetImage(withPath: imagePath, placeholderImage: placeholder)
+        SFSetImage(withPath: imagePath, placeholderImage: nil)
     }
-    func SFSetImage(withPath imagePath: String, placeholderImage placeholder: UIImage)  {
+    func SFSetImage(withPath imagePath: String, placeholderImage placeholder: UIImage?)  {
         SFSetImage(withPath: imagePath, placeholderImage: placeholder, completed: nil)
     }
-    func SFSetImage(withPath imagePath: String, placeholderImage placeholder: UIImage, completed: SDExternalCompletionBlock?)  {
+    func SFSetImage(withPath imagePath: String, placeholderImage placeholder: UIImage?, completed: SDExternalCompletionBlock?)  {
         guard let url = URL(string: imagePath) else {
             self.image = placeholder
             return

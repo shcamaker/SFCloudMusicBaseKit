@@ -1,8 +1,8 @@
 {
   "name": "SFCloudMusicBaseKit",
-  "version": "0.1.0",
-  "summary": "A short description of SFCloudMusicBaseKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.2.0",
+  "summary": "SFCloudMusicBaseKit.",
+  "description": "基础组件包含了我们的分类，基础配置，工具.",
   "homepage": "https://github.com/shcamaker/SFCloudMusicBaseKit",
   "license": {
     "type": "MIT",
@@ -13,10 +13,25 @@
   },
   "source": {
     "git": "https://github.com/shcamaker/SFCloudMusicBaseKit.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SFCloudMusicBaseKit/Classes/**/*"
+  "source_files": "SFCloudMusicBaseKit/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "Extensions",
+      "source_files": "SFCloudMusicBaseKit/Classes/Extensions/**/*"
+    },
+    {
+      "name": "Utils",
+      "source_files": "SFCloudMusicBaseKit/Classes/Utils/**/*",
+      "dependencies": {
+        "SDWebImage": [
+
+        ]
+      }
+    }
+  ]
 }
