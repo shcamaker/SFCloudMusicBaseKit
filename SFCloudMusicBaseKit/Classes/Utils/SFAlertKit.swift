@@ -9,7 +9,7 @@
 import UIKit
 
 class SFAlertKit: NSObject {
-    class func showAlert(title:String? = nil, message: String? = nil, style: UIAlertController.Style, confirmTitle: String, cancelTitle: String, confirmHandler: @escaping (()->()), cancelHandler: @escaping (()->())) {
+    public class func showAlert(title:String? = nil, message: String? = nil, style: UIAlertController.Style, confirmTitle: String, cancelTitle: String, confirmHandler: @escaping (()->()), cancelHandler: @escaping (()->())) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: style)
         
         if confirmTitle.count > 0 {
