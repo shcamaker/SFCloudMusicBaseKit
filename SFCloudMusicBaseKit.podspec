@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SFCloudMusicBaseKit'
-  s.version          = '0.6.1'
+  s.version          = '0.6.2'
   s.summary          = 'SFCloudMusicBaseKit.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SFCloudMusicBaseKit/Classes/**/*'
+  # s.source_files = 'SFCloudMusicBaseKit/Classes/**/*'
 
   s.subspec 'Extensions' do |e|
       e.source_files = 'SFCloudMusicBaseKit/Classes/Extensions/**/*'
